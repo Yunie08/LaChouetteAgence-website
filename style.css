@@ -153,8 +153,9 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+.nav>li>a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .d-bloc .btn-wire,
@@ -460,8 +461,13 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
+.btn:hover {
+    transform: scale(0.95);
+    transition: transform 250ms;
+}
+
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
