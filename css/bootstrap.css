@@ -1419,7 +1419,7 @@ a:hover {
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    outline-offset: 3px;
 }
 
 figure {
@@ -2288,6 +2288,14 @@ pre code {
     margin-left: 0
 }
 
+.col-sm-3 {
+    width: 25%;
+    float: left;
+}
+.col-sm-12 {
+    width: 100%
+}
+
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
@@ -2328,7 +2336,8 @@ pre code {
         width: 41.66666667%
     }
     .col-sm-4 {
-        width: 33.33333333%
+        width: 33.33333333%;
+        padding: 0 2%;
     }
     .col-sm-3 {
         width: 25%
