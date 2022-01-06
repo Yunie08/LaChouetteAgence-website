@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'kingthings_petrock_lightRg';
+    src: url('./fonts/Kingthings_Petrock_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +16,7 @@ body {
 
 a,
 button {
-    transition: all .3s ease-in-out;
+    transition: all .0s ease-in-out;
     /* outline: none; */
 }
 
@@ -96,7 +103,7 @@ a:hover {
 }
 
 .b-parallax {
-    background-attachment: fixed;
+    background-attachment: fixed !important;
 }
 
 .d-bloc {
@@ -133,7 +140,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #212121;
 }
 
 .d-bloc .a-btn:hover,
@@ -156,6 +163,18 @@ a:hover {
 .nav>li>a:hover{
     text-decoration: underline;
     text-underline-offset: 5px;
+}
+
+a.navbar-brand {
+    border-bottom: #FFF 1.5px solid;
+}
+a.navbar-brand:hover {
+    border-bottom: #000 1.5px solid;
+}
+
+.navbar-brand-text {
+    margin: 0;
+    padding: 0 !important;
 }
 
 .d-bloc .btn-wire,
@@ -300,12 +319,19 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    display: flex;
 }
+
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+}
+
+.navbar-brand-text {
+    font-family: 'kingthings_petrock_lightRg';
+    font-size: 27px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -712,6 +738,10 @@ p {
     font-weight: 700;
 }
 
+footer p {
+    margin: 10px 0 25px 0;
+}
+
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -772,6 +802,9 @@ h4 {
 
 .bold-link {
     font-weight: 900;
+}
+
+.bold-link:hover {
     text-decoration: underline!important;
 }
 
@@ -797,7 +830,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F5A682!important;
     color: #212121!important;
 }
 
@@ -806,7 +839,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine {
@@ -863,13 +896,13 @@ h4 {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
 }
 
@@ -878,7 +911,7 @@ h4 {
         width: 100%;
     }
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
     .page-container,
     #hero-bloc {
@@ -916,7 +949,7 @@ h4 {
         padding-right: 10px!important;
     }
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
     .navbar .nav {
         padding-top: 0;
