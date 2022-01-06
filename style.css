@@ -466,9 +466,9 @@ nav .caret {
     transition: transform 250ms;
 }
 
-button {
+/* button {
     outline: none;
-}
+} */
 
 .btn-rd {
     border-radius: 40px;
@@ -591,9 +591,11 @@ a[data-lightbox]:hover img {
     color: #FFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
-    left: 15px;
-    right: 15px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
     bottom: 5px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -647,6 +649,7 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    font-size: 12px;
 }
 
 h1,
