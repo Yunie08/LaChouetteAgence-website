@@ -837,7 +837,8 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #212121;
+    /* background-color: #212121; */
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bgc-atomic-tangerine {
