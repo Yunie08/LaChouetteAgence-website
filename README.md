@@ -14,18 +14,18 @@ This project consists in :
 
 ### Link
 
-Improved Site URL: [La Chouette Agence website - improved version](https://yunie08.github.io/LaChouetteAgence-website/)
+Improved Site URL: [La Chouette Agence website - improved version](https://yunie08.github.io/LaChouetteAgence-website/)  
 
-Initial Site URL: [La Chouette Agence website - initial version](https://yunie08.github.io/LaChouetteAgence-starting-website/)
-Initial Site Github repository: [La Chouette Agence repo - initial version](https://github.com/Yunie08/LaChouetteAgence-starting-website.git)
+Initial Site URL: [La Chouette Agence website - initial version](https://yunie08.github.io/LaChouetteAgence-starting-website/)  
+Initial Site Github repository: [La Chouette Agence repo - initial version](https://github.com/Yunie08/LaChouetteAgence-starting-website.git)  
 
 
 ### Evaluated skills
-:heavy_check_mark:  Writing maintainable HTML and CSS code
-:heavy_check_mark:  Ensuring website accessibility
+:heavy_check_mark:  Writing maintainable HTML and CSS code  
+:heavy_check_mark:  Ensuring website accessibility  
 :heavy_check_mark:  Optimizing website SEO  
-:heavy_check_mark:  Searching for good practices online 
-:heavy_check_mark:  Optimizing website size and loading speed
+:heavy_check_mark:  Searching for good practices online  
+:heavy_check_mark:  Optimizing website size and loading speed  
 
 
 ## Author
